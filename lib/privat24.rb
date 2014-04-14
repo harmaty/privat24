@@ -35,6 +35,7 @@ class Privat24
   end
 
   def pay_pb(options = {})
+    options[:phone] = merchant_phone
     response = execute __method__, options
     result = parse_response response, 'payment'
     if result.attributes["state"].nil? or result.attributes["state"].value != "1"
