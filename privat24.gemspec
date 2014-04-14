@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'privat24'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2014-04-14'
   s.summary     = "Ruby wrapper for Privat24 API"
   s.description = "Allows to transfer funds between privat24 users"
